@@ -6,3 +6,5 @@ Stimulus
   
 Ruby on Rails - ActionCable
   https://edgeguides.rubyonrails.org/action_cable_overview.html
+
+![screen](screenshot.png)
