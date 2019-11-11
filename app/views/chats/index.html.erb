@@ -1,0 +1,22 @@
+<div class="container clearfix" data-controller="chat">
+
+  <div class="chat">
+    <div class="chat-header clearfix">
+      <div class="chat-about">
+        <div class="chat-with">Anonymous Disposable Group Chat</div>
+      </div>
+    </div>
+
+    <div class="chat-history">
+      <ul data-target="chat.conversation"></ul>
+    </div>
+
+    <div class="chat-message clearfix">
+      <textarea data-target="chat.input" data-action="keydown->chat#sendThroughEnter" name="message-to-send" id="message-to-send" placeholder ="Type your message" rows="3"></textarea>
+      <button data-action="click->chat#sendMessage">Send</button>
+    </div>
+
+    <%= render 'chats/templates/my_message' %>
+    <%= render 'chats/templates/their_message' %>
+  </div>
+</div>

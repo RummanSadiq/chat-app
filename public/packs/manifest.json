@@ -1,0 +1,34 @@
+{
+  "application.js": "/packs/js/application-b422310ef926c829bf39.js",
+  "application.js.map": "/packs/js/application-b422310ef926c829bf39.js.map",
+  "cable.js": "/packs/js/cable-9bd638d1bebefe490bba.js",
+  "cable.js.map": "/packs/js/cable-9bd638d1bebefe490bba.js.map",
+  "controllers/chat_controller.js": "/packs/js/controllers/chat_controller-9927edf24c51f60ff587.js",
+  "controllers/chat_controller.js.map": "/packs/js/controllers/chat_controller-9927edf24c51f60ff587.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-b422310ef926c829bf39.js"
+      ],
+      "js.map": [
+        "/packs/js/application-b422310ef926c829bf39.js.map"
+      ]
+    },
+    "cable": {
+      "js": [
+        "/packs/js/cable-9bd638d1bebefe490bba.js"
+      ],
+      "js.map": [
+        "/packs/js/cable-9bd638d1bebefe490bba.js.map"
+      ]
+    },
+    "controllers/chat_controller": {
+      "js": [
+        "/packs/js/controllers/chat_controller-9927edf24c51f60ff587.js"
+      ],
+      "js.map": [
+        "/packs/js/controllers/chat_controller-9927edf24c51f60ff587.js.map"
+      ]
+    }
+  }
+}
